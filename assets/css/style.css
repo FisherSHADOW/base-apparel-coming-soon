@@ -1,0 +1,37 @@
+:root{
+    --White: white  ;
+    --light-red: hsl(0, 36%, 70%);
+    --soft-red: hsl(0, 93%, 68%);
+    --Dark-Greyish-red: hsl(0, 6%, 24%);
+    --font-family1:'Josefin Sans', sans-serif;  /* font weights => 300, 400, 600  */
+    }
+ body{
+    max-height: 100vh;
+    background-color: rgb(112, 112, 112);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+ }
+ .container{
+    width: 55rem;
+    height: 500px;
+    background-color: var(--White);
+    margin: 200px auto;
+ 
+ }
+ .img1{
+    height: 500px;
+    position: relative;
+    left: 32rem ;
+    filter: sepia(25%);
+ }
+ .logo{
+    width: 130px;
+    height: auto;
+    position: relative;
+    top: 300px;
+    left: 600px;
+    
+ }
