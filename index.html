@@ -23,10 +23,31 @@
   <body>
     <main>
       <div class="container">
-        <article>
+        <article class="article-container">
           <img class="logo" src="./assets/images/logo.svg" alt="" />
+          <h1>
+            <span class="titleFirstLine">WE'RE</span><br />
+            COMING <br />
+            SOON
+          </h1>
+          <h2>
+            Hello fellow shapers! We're currently building our new <br />
+            fashion store. Add your email below to stay up to-date with <br />
+            announcements and our launch deals.
+          </h2>
+
+          <input
+            type="email"
+            id="emailInput"
+            placeholder="Email address"
+            required
+          />
+          <button id="submitBtn">
+            <img src="./assets/images/icon-arrow.svg" alt="" />
+          </button>
+        </article>
         <div class="img-container">
-            <picture>
+          <picture>
             <source
               srcset="./assets/images/hero-mobile.jpg"
               media="(max-width: 375px)"
