@@ -42,7 +42,7 @@
  .logo{
     width: 130px;
     margin-left: 7.5rem;
-    margin-top: -90px;
+    margin-top: -30px;
 }
 
  h1{
@@ -99,8 +99,8 @@
    height: 45px;
    border-radius: 50px;
    position: relative;
-   left:24.5rem;
-   bottom:  2.8rem;
+   right: 5rem;
+   top: 3.8px;
    border: none;
    outline: none;
    background: rgb(238,140,140);
