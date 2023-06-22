@@ -1,4 +1,144 @@
-@media (max-width: 372px) {
+@media (max-width: 375px) {
 
   
+:root{
+    --White: white  ;
+    --light-red: hsl(0, 36%, 70%);
+    --soft-red: hsl(0, 93%, 68%);
+    --Dark-Greyish-red: hsl(0, 6%, 24%);
+    --font-family1:'Josefin Sans', sans-serif;  /* font weights => 300, 400, 600  */
+   
+    }
+
+    body{
+        background-color: var(--White);
+    }
+    
+
+ .container{
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+  .article-container{
+    width: 375px;
+    height: 100vh ;
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+    margin-top: 15rem;
+ }
+ .logo{
+    width: 100px;
+    position: absolute;
+    top: 60px;
+    right: 15rem;
+}
+
+ h1{
+    font-family: var(--font-family1);
+    font-weight: 600;
+    font-size: 50px ;
+    color: var(--Dark-Greyish-red);
+    letter-spacing: 15px ;
+    text-align: center;
+    margin: 70px  0 16px 16px;
+ }
+
+ h2{
+    font-family: var(--font-family1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--light-red);
+    margin: 0 auto;
+    text-align: center;
+ }
+ .titleFirstLine{
+    font-weight: 300;
+    color: var(--light-red);
+    letter-spacing: 14px;
+ }
+
+ #emailInput{
+   width: 300px;
+   height: 45px;
+   font-family: var(--font-family1);
+   color: var(--Dark-Greyish-red);
+   border-radius: 50px;
+   box-sizing: border-box;
+   padding: 15px;
+   opacity: 0.8;
+   border: 1px solid var(--Dark-Greyish-red) ;
+   margin: 50px  0 16px 35px;
+
+ }
+ #emailInput:focus{
+   border: 1px solid var(--Dark-Greyish-red) ;
+   outline: none;
+ }
+ #emailInput::placeholder{
+   color: var(--light-red);
+   border: none;
+   outline: none;
+   opacity: 0.8;
+ }
+ #submitBtn{
+   width: 80px;
+   height: 45px;
+   border-radius: 50px;
+   position: relative;
+   left: 16rem;
+   top: -3.8rem ;
+   border: none;
+   outline: none;
+   background: rgb(238,140,140);
+   background: linear-gradient(90deg, rgba(238,140,140,1) 0%, rgba(248,191,191,1) 100%);
+   cursor: pointer;
+   transition: all 500ms ease-in-out ;
+   transform: scale(1);
+ }
+ #submitBtn > img{
+   transition: all 500ms ease-in-out ;
+ }
+ #submitBtn:hover{
+   transition: all ease-in-out 500ms;
+   box-shadow: none;
+   background: rgb(238,140,140);
+   background: linear-gradient(90deg, rgb(233, 170, 170) 0%, rgb(250, 216, 216) 100%);
+   transform: scale(1.1);
+   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.315);
+
+ }
+ #submitBtn img{
+   margin-left: 5px;
+ }
+ #submitBtn:hover img{
+   transform: translateX(15px);
+   transition: all ease-in-out 500ms ;
+   scale: 1.1;
+ }
+ .img-container{
+    width: 375px;
+    height: max-content;
+ }
+ .img1{
+    width: 375px;
+    height: auto;
+    filter: sepia(35%);   
+    position: absolute;
+    top: 70px; 
+ } 
+
+
+
+
+
   }
