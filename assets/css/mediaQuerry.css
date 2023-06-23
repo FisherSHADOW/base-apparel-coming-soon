@@ -1,15 +1,11 @@
 @media (max-width: 375px) {
-
-  
 :root{
     --White: white  ;
     --light-red: hsl(0, 36%, 70%);
     --soft-red: hsl(0, 93%, 68%);
     --Dark-Greyish-red: hsl(0, 6%, 24%);
     --font-family1:'Josefin Sans', sans-serif;  /* font weights => 300, 400, 600  */
-   
     }
-
     body{
         background-color: var(--White);
     }
@@ -42,7 +38,6 @@
     top: -215px;
     left: 50px;
 }
-
  h1{
     font-family: var(--font-family1);
     font-weight: 600;
@@ -52,7 +47,6 @@
     text-align: center;
     margin: 70px  0 16px 16px;
  }
-
  h2{
     font-family: var(--font-family1);
     font-weight: 400;
@@ -67,7 +61,6 @@
     color: var(--light-red);
     letter-spacing: 14px;
  }
-
  #emailInput{
    width: 300px;
    height: 45px;
@@ -79,7 +72,6 @@
    opacity: 0.8;
    border: 1px solid var(--Dark-Greyish-red) ;
    margin: 50px  0 16px 35px;
-
  }
  #emailInput:focus{
    border: 1px solid var(--Dark-Greyish-red) ;

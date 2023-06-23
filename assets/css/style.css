@@ -1,23 +1,15 @@
-
 :root{
     --White: white  ;
     --light-red: hsl(0, 36%, 70%);
     --soft-red: hsl(0, 93%, 68%);
     --Dark-Greyish-red: hsl(0, 6%, 24%);
     --font-family1:'Josefin Sans', sans-serif;  /* font weights => 300, 400, 600  */
-   
     }
  body{
+    min-width: 340px;
     max-height: 100vh;
     background-color: var(--White)
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-
-
  }
-
-
  .container{
     width: 65rem;
     height: 550px;
@@ -25,7 +17,7 @@
     margin: 200px auto;
     display: flex;
     justify-content: space-between;
-    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.671);
  }
  .article-container{
     width: 40rem;
@@ -34,7 +26,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: var(--White); */
     background-image: url(/assets/images/bg-pattern-desktop.svg);
     background-position: top;
     background-size: 100%;
@@ -46,9 +37,7 @@
     position: absolute;
     left: 145px;
     top: 40px;
-   
 }
-
  h1{
     font-family: var(--font-family1);
     font-weight: 600;
@@ -58,7 +47,6 @@
     margin-top: 60px;
     letter-spacing: 15px ;
  }
-
  h2{
     font-family: var(--font-family1);
     font-weight: 400;
@@ -78,11 +66,9 @@
    height: 150px;
    margin: 0 auto;
    position: relative;
- 
    display: flex;
    justify-content: center;
    align-items:center;
-
  }
  #emailInput{
    width: 350px;
@@ -121,18 +107,17 @@
 .error-icon{
    display: block;
    position: absolute;
-   left: 240px;
+   left: 235px;
    bottom: 53px;
    opacity: 0.8;
    display: none;
-   
 }
  #submitBtn{
    width: 80px;
    height: 45px;
    border-radius: 50px;
    position: absolute;
-   top: 62px;
+   top: 63px;
    right: 0px;
    z-index: 10;
    border: none;
@@ -170,6 +155,4 @@
     height: 550px;
     filter: sepia(30%);
  }
-
-
 

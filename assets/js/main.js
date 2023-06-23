@@ -6,7 +6,6 @@ const form = document.getElementById('form');
 const inputValue = input.value;
 let e= null
 function validation() {
-    // input.preventDefault()
     if (!input.value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/) || input.value==='') {
         errorIcon.style.display='block'
         errorTxt.style.display='block'
@@ -19,7 +18,6 @@ function validation() {
 }
 if (e==false) {
     input.style.borderColor='green'
-    
 }
 };
 
