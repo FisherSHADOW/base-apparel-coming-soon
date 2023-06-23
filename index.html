@@ -35,18 +35,24 @@
             fashion store. Add your email below to stay up to-date with <br />
             announcements and our launch deals.
           </h2>
-          <form action="">
-            <input o
+          <form action="#" id="form">
+            <input
               type="email"
               id="emailInput"
               placeholder="Email address"
-              required
+              onkeydown="validation()"
             />
-            <button type="submit" onclick="" id="submitBtn">
+            <p id="errorTxt" class="error-txt">Please provide a valid email!</p>
+            <img
+              id="errorIcon"
+              class="error-icon"
+              src="./assets/images/icon-error.svg"
+            />
+            <button onclick="validation()" type="submit" id="submitBtn">
               <img src="./assets/images/icon-arrow.svg" alt="" />
             </button>
           </form>
-        </article> 
+        </article>
         <div class="img-container">
           <picture>
             <source
@@ -58,5 +64,6 @@
         </div>
       </div>
     </main>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
