@@ -106,7 +106,7 @@
    box-shadow: none;
    background: rgb(238,140,140);
    background: linear-gradient(90deg, rgb(233, 170, 170) 0%, rgb(250, 216, 216) 100%);
-   transform: scale(1.1);
+   transform: scale(1);
    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.315);
  }
  #submitBtn img{
