@@ -9,7 +9,7 @@
     }
  body{
     max-height: 100vh;
-    background-color: rgb(112, 112, 112);
+    background-color: var(--White)
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -25,10 +25,12 @@
     margin: 200px auto;
     display: flex;
     justify-content: space-between;
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
  }
  .article-container{
     width: 40rem;
     height: 550px ;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,8 +42,11 @@
  }
  .logo{
     width: 130px;
-    margin-left: 7.5rem;
-    margin-top: -30px;
+    height: fit-content;
+    position: absolute;
+    left: 145px;
+    top: 40px;
+   
 }
 
  h1{
@@ -49,7 +54,7 @@
     font-weight: 600;
     font-size: 50px ;
     color: var(--Dark-Greyish-red);
-    margin-left: 7.5rem;
+    margin-left: 9rem;
     margin-top: 60px;
     letter-spacing: 15px ;
  }
@@ -58,7 +63,7 @@
     font-family: var(--font-family1);
     font-weight: 400;
     font-size: 13px;
-    margin-left: 7.5rem;
+    margin-left: 9rem;
     margin-top: -30px;
     line-height: 20px;
     color: var(--light-red);
@@ -68,14 +73,23 @@
     color: var(--light-red);
     letter-spacing: 14px;
  }
+ .form-container{
+   width: 350px;
+   height: 150px;
+   margin: 0 auto;
+   position: relative;
+ 
+   display: flex;
+   justify-content: center;
+   align-items:center;
 
+ }
  #emailInput{
    width: 350px;
    height: 45px;
    font-family: var(--font-family1);
    color: var(--Dark-Greyish-red);
    border-radius: 50px;
-   margin-left: 120px;
    box-sizing: border-box;
    padding: 15px;
    margin-top: 20px;
@@ -83,8 +97,6 @@
    border: 1px solid var(--Dark-Greyish-red) ;
    background-color: none;
    background-color: white;
-
-
  }
  #emailInput:focus{
    border: 1px solid var(--Dark-Greyish-red) ;
@@ -101,25 +113,28 @@
    font-size: 14px;
    color: var(--soft-red);
    position: absolute;
-   left: 21.5rem;
-   top: 40.8rem;
+   left: 18px;
+   bottom: 5px;
+   opacity: 0.8;
    display: none;
 }
 .error-icon{
+   display: block;
    position: absolute;
-   top: 39rem;
-   left: 35rem;
+   left: 240px;
+   bottom: 53px;
+   opacity: 0.8;
    display: none;
    
-
 }
  #submitBtn{
    width: 80px;
    height: 45px;
    border-radius: 50px;
-   position: relative;
-   right: 5rem;
-   top: 3px;
+   position: absolute;
+   top: 62px;
+   right: 0px;
+   z-index: 10;
    border: none;
    outline: none;
    background: rgb(238,140,140);
@@ -138,11 +153,9 @@
    background: linear-gradient(90deg, rgb(233, 170, 170) 0%, rgb(250, 216, 216) 100%);
    transform: scale(1.1);
    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.315);
-
  }
  #submitBtn img{
    margin-left: 5px;
-
  }
  #submitBtn:hover img{
    transform: translateX(15px);

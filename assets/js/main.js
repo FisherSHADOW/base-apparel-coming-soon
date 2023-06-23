@@ -5,10 +5,6 @@ const input = document.getElementById('emailInput');
 const form = document.getElementById('form');
 const inputValue = input.value;
 let e= null
-
-form.addEventListener('submit',)
-
-
 function validation() {
     // input.preventDefault()
     if (!input.value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/) || input.value==='') {
