@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/responsive-interactive-rating-component-O32P2jqg7i)
-- Live Site URL: (https://fishershadow.github.io/interactive-rating-component-main/)
+- Solution URL: [FisherSHADOW](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-frontend-mentor-challenge-qS74TyAYcs)
+- Live Site URL: [FrontendMentor](https://fishershadow.github.io/base-apparel-coming-soon/)
 
 ## My process
 
